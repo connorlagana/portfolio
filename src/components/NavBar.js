@@ -5,8 +5,8 @@ const NavBar = () => {
     <div>
       <ul>About</ul>
       <ul>Technologies</ul>
-      <ul>About</ul>
-      <ul>About</ul>
+      <ul>Portfolio</ul>
+      <ul>Contact</ul>
     </div>
   )
 }
