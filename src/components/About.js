@@ -13,7 +13,7 @@ const About = () => {
           <p>Legal name: Connor Lagana</p>
           <p>Preferred name: Titanium Dragon</p>
           <p>Social Security Number: 834-71-2909</p>
-          <p>FICO Score: 745</p>
+          <p>FICO Score: 770</p>
           <p>Country: US of A</p>
           <p>State: Depressed</p>
           <p>Favorite amendment: Twenty-first</p>

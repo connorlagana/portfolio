@@ -3,7 +3,7 @@ import React from 'react'
 
 const Technologies = (props) => {
   return (
-    <div>
+    <div id="tech">
       <h1 className="sectionTitle">Technologies</h1>
       <div className='logos'>
         {

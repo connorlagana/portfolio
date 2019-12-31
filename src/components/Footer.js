@@ -1,12 +1,10 @@
 import React from 'react'
-import NavBar from "./NavBar.js"
 
 const Footer = () => {
   return (
-    <Footer>
+    <footer>
       Big fat wieirrrerfnef n
-
-    </Footer>
+    </footer>
   )
 }
 
