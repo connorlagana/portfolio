@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header.js'
 import About from './components/About.js'
+import Technologies from './components/Technologies.js'
+
 import jsLogo from './images/logos/javascriptLogo.png'
 
 import angularLogo from './images/logos/angularLogo.png'
@@ -20,12 +22,12 @@ class App extends Component {
         {
           name: 'CSS',
           pic: angularLogo,
-          description: "Connor Sucks aSs"
+          description: "CSS stands for 'Connor iS Socially inept'"
         },
         {
           name: 'Angular',
           pic: angularLogo,
-          description: "Angular is a thing i think"
+          description: "Angular is the full name of the main character from Avatar (blue arrow boy, not the blue guys that go to pandora)"
         }
 
       ]
@@ -36,6 +38,7 @@ class App extends Component {
       <div className="App" >
         <Header />
         <About />
+        <Technologies />
       </div>
     );
   }
