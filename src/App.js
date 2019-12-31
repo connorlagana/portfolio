@@ -4,7 +4,7 @@ import Header from './components/Header.js'
 import About from './components/About.js'
 import Technologies from './components/Technologies.js'
 import Quotes from './components/Quotes.js'
-import Footer from './components/Footer.js'
+// import Footer from './components/Footer.js'
 
 import jsLogo from './images/logos/javascriptLogo.png'
 import cssLogo from './images/logos/cssLogo.png'
@@ -44,7 +44,7 @@ class App extends Component {
         <Technologies
           tech={this.state.tech}
         />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
