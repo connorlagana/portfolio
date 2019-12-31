@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from "./NavBar.js"
 import codeBackground from '../images/codeBackground.jpeg'
+import analKingdom from '../images/jokeImages/analKingdom.jpg'
 
 const Header = () => {
   return (
@@ -15,8 +16,8 @@ const Header = () => {
           className="title">
           Habitual Line Stepper
         </div>
-        <NavBar />
 
+        <NavBar />
       </div>
 
     </header>

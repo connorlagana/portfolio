@@ -4,7 +4,7 @@
 .container {
   position: relative;
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -29,6 +29,7 @@ header img {
   transform: translate(-50%, -50%);
   font-size: 24px;
   font-weight: 200;
+  
 }
 
 .nav {
@@ -40,13 +41,15 @@ header img {
   transform: translate(-50%, -50%);
   align-items: center;
   /* background-color: aqua; */
+  color: rgb(124, 0, 0);
+  
 }
 li {
   cursor: pointer;
   list-style: none;
   margin: 10px;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 li :hover {
