@@ -2,12 +2,20 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>
-      <ul>About</ul>
-      <ul>Technologies</ul>
-      <ul>Portfolio</ul>
-      <ul>Contact</ul>
-    </div>
+    <ul className="nav">
+      <li id="about">
+        <a>About</a>
+      </li>
+      <li id="about">
+        <a>Technologies</a>
+      </li>
+      <li id="about">
+        <a>Portfolio</a>
+      </li>
+      <li id="about">
+        <a>Contact</a>
+      </li>
+    </ul>
   )
 }
 

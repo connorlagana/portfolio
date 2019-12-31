@@ -1,16 +1,49 @@
+* {
+  /* font-family: 'Catamaran', sans-serif; */
+}
 .container {
   position: relative;
   text-align: center;
-  color: green;
+  color: black;
 }
 
 header img {
   width: 100%;
 }
 
-.centered {
+.name {
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 38px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.title {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  /* background-color: aqua; */
+}
+ul {
+  cursor: pointer;
+}
+
+ul :hover {
+  background-color: blueviolet;
 }
