@@ -18,7 +18,7 @@ const About = () => {
           <p>State: Depressed</p>
           <p>Favorite amendment: Twenty-first</p>
           <p>Dunky order: Medium Iced Coffee w/ Almond Milk</p>
-          <p>Amount of brown rice consumed daily: 1.3 lbs</p>
+          <p>Amount of brown rice consumed daily: 1.3 kg</p>
           <p>Relationship status: Single and ready to mingle</p>
           <p>Highest number counted to: 1,602</p>
         </div>

@@ -13,6 +13,10 @@ const Technologies = (props) => {
                 src={single.pic}
                 id="logo"
               />
+              <div id="dropdown-content">
+                <h5>{single.name}</h5>
+                <p>{single.description}</p>
+              </div>
             </div>
           )
         }
