@@ -9,7 +9,7 @@ const Header = () => {
         <img src={codeBackground} />
         <div
           className="name">
-          Connor Lagana
+          CONNOR LAGANA
         </div>
         <div
           className="title">

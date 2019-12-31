@@ -1,10 +1,11 @@
 * {
-  /* font-family: 'Catamaran', sans-serif; */
+  
 }
 .container {
   position: relative;
   text-align: center;
   color: black;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 header img {
@@ -16,14 +17,14 @@ header img {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 38px;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 4px;
 }
 
 .title {
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
@@ -34,16 +35,58 @@ header img {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 18%;
+  top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
   /* background-color: aqua; */
 }
-ul {
+li {
   cursor: pointer;
+  list-style: none;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 300;
 }
 
-ul :hover {
-  background-color: blueviolet;
+li :hover {
+  text-decoration: underline;
+  
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 100;
+}
+
+#profile {
+  position: relative;
+  display: flex;
+  align-content: center;
+  padding-top: 100px;
+}
+
+#sexyAssConnor {
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  position: absolute;
+  -webkit-transform: translate(600px, 80px);
+  transform:translate(600px, 80px);
+  
+}
+
+#blueFrame {
+  width: 470px;
+  height: 300px;
+  padding: 70px 40px 0px 130px;
+  -webkit-transform: translateX(200px);
+  transform:translateX(200px);
+  background-color: #1B4A69;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
 }
