@@ -9,11 +9,11 @@ const Header = () => {
         <img src={codeBackground} />
         <div
           className="name">
-          CONNOR LAGANA
+          CONNOR "SPANKY" LAGANA
         </div>
         <div
           className="title">
-          Software Engineer
+          Habitual Line Stepper
         </div>
         <NavBar />
 

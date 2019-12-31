@@ -91,3 +91,17 @@ li :hover {
   font-family: 'Titillium Web', sans-serif;
   font-size: 22px;
 }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  height: 200px;
+  width: 200px;
+}
+
+.logos :hover{
+  background-color: black;
+}

@@ -5,7 +5,7 @@ import About from './components/About.js'
 import Technologies from './components/Technologies.js'
 
 import jsLogo from './images/logos/javascriptLogo.png'
-
+import cssLogo from './images/logos/cssLogo.png'
 import angularLogo from './images/logos/angularLogo.png'
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
     super(props)
 
     this.state = {
-      technologies: [
+      tech: [
         {
           name: 'JavaScript',
           pic: jsLogo,
@@ -21,7 +21,7 @@ class App extends Component {
         },
         {
           name: 'CSS',
-          pic: angularLogo,
+          pic: cssLogo,
           description: "CSS stands for 'Connor iS Socially inept'"
         },
         {
@@ -38,7 +38,9 @@ class App extends Component {
       <div className="App" >
         <Header />
         <About />
-        <Technologies />
+        <Technologies
+          tech={this.state.tech}
+        />
       </div>
     );
   }
