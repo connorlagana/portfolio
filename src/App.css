@@ -197,3 +197,9 @@ footer {
   height: 300px;
   background-color: antiquewhite;
 }
+
+@media only screen and (max-width: 800px) {
+  * {
+    background-color: blue;
+  }
+}

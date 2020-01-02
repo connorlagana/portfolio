@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-      Big fat wieirrrerfnef n
+      Wu Tang Financial
     </footer>
   )
 }
