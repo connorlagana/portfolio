@@ -4,13 +4,13 @@ const NavBar = () => {
   return (
     <ul className="nav">
       <li id="about">
-        <a>About</a>
+        <a href='#about'>About</a>
       </li>
       <li id="about">
-        <a>Technologies</a>
+        <a href='#tech'>Technologies</a>
       </li>
       <li id="about">
-        <a>Portfolio</a>
+        <a href='#portfolio'>Portfolio</a>
       </li>
       <li id="about">
         <a>Contact</a>

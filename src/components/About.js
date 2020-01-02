@@ -4,7 +4,7 @@ import wheretheladies from '../images/wheretheladies.PNG'
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <h1 className="sectionTitle">About</h1>
       <div id='profile'>
         <img src={wheretheladies} id='sexyAssConnor' />

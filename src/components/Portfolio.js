@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = (props) => {
   return (
-    <div>
+    <div id='portfolio'>
       <h1 className="sectionTitle">Portfolio</h1>
       <div className='projects'>
         {
