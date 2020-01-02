@@ -41,7 +41,7 @@ header img {
   transform: translate(-50%, -50%);
   align-items: center;
   /* background-color: aqua; */
-  color: rgb(124, 0, 0);
+  color: rgb(107, 37, 37);
   
 }
 li {
@@ -89,7 +89,7 @@ li :hover {
   padding: 10px 100px 0px 80px;
   -webkit-transform: translateX(200px);
   transform:translateX(200px);
-  background-color: #1B4A69;
+  background-color: rgb(39, 39, 75);
   color: white;
   font-family: 'Titillium Web', sans-serif;
   font-size: 17px;
@@ -154,6 +154,10 @@ li :hover {
 
 #tech {
   padding-bottom: 200px;
+}
+
+#portPic {
+  
 }
 
 footer {

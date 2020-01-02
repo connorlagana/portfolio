@@ -4,6 +4,7 @@ import Header from './components/Header.js'
 import About from './components/About.js'
 import Technologies from './components/Technologies.js'
 import Quotes from './components/Quotes.js'
+import Portfolio from './components/Portfolio.js'
 import Footer from './components/Footer.js'
 
 import jsLogo from './images/logos/javascriptLogo.png'
@@ -21,6 +22,9 @@ import gitLogo from './images/logos/gitLogo.png'
 import githubLogo from './images/logos/githubLogo.png'
 import jsonLogo from './images/logos/jsonLogo.png'
 
+import senditLogo from './images/projects/senditLogo.png'
+import senditSS from './images/projects/senditSS.png'
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -35,12 +39,12 @@ class App extends Component {
         {
           name: 'HTML',
           pic: htmlLogo,
-          description: "HTML stands for 'HGTV Type Minerals Left'"
+          description: "HTML stands for 'How do i geT My Life together?'"
         },
         {
           name: 'CSS',
           pic: cssLogo,
-          description: "CSS stands for 'Connor Sucks aSs'"
+          description: "CSS stands for 'Caroline please come back i miSS you'"
         },
         {
           name: 'Swift',
@@ -88,15 +92,24 @@ class App extends Component {
           description: "I really need to GIT a life"
         },
         {
-          name: 'Github',
+          name: 'GitHub',
           pic: githubLogo,
-          description: "I really need to GIT a girlfriend instead of pornHUB"
+          description: "peep my shit fam"
         },
         {
           name: 'JSON',
           pic: jsonLogo,
           description: "JSON stands for 'Just Snorted an absurd amount Of Nicotine'"
         },
+      ],
+      projects: [
+        {
+          name: 'sendit',
+          description: "Are you silly? I'm still gonna send it...",
+          pic: senditLogo,
+          githubLink: 'https://github.com/connorlagana/project2',
+          deployedLink: 'sendit69420.surge.sh'
+        }
       ]
     }
   }
@@ -108,6 +121,9 @@ class App extends Component {
         <Quotes />
         <Technologies
           tech={this.state.tech}
+        />
+        <Portfolio
+          projects={this.state.projects}
         />
         <Footer />
       </div>
