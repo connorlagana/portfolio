@@ -4,14 +4,18 @@ const Portfolio = (props) => {
   return (
     <div>
       <h1 className="sectionTitle">Portfolio</h1>
-      <div className='logos'>
+      <div className='projects'>
         {
           props.projects.map((single, key) =>
-            <div className="single" key={key}>
+            <div className="projSingle" key={key}>
               <img
                 src={single.pic}
-                id="portPic"
+                id="projPic"
               />
+              <div id="dropdown-content-proj">
+                <h5>{single.name}</h5>
+                <p>{single.description}</p>
+              </div>
             </div>
           )
         }

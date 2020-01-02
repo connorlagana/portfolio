@@ -23,7 +23,8 @@ import githubLogo from './images/logos/githubLogo.png'
 import jsonLogo from './images/logos/jsonLogo.png'
 
 import senditLogo from './images/projects/senditLogo.png'
-import senditSS from './images/projects/senditSS.png'
+import instatagSS from './images/projects/instatagSS.png'
+import stockifySS from './images/projects/stockifySS.png'
 
 class App extends Component {
   constructor(props) {
@@ -108,7 +109,21 @@ class App extends Component {
           description: "Are you silly? I'm still gonna send it...",
           pic: senditLogo,
           githubLink: 'https://github.com/connorlagana/project2',
-          deployedLink: 'sendit69420.surge.sh'
+          deployedLink: 'https://sendit69420.surge.sh'
+        },
+        {
+          name: 'instatag',
+          description: "Please sir, can i have some more (dopamine)?",
+          pic: instatagSS,
+          githubLink: 'https://github.com/connorlagana/instatag',
+          deployedLink: 'https://en.wikipedia.org/wiki/elon_musk'
+        },
+        {
+          name: 'Stockify',
+          description: "Spotify but for rich dudes!",
+          pic: stockifySS,
+          githubLink: 'https://github.com/connorlagana/project_1',
+          deployedLink: 'https://stockify.surge.sh'
         }
       ]
     }

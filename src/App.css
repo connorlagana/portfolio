@@ -128,9 +128,7 @@ li :hover {
   height: 200px;
   /* opacity: 1; */
 }
-.logos :hover {
-  /* background-color: aqua; */
-}
+
 
 #quote {
   font-family: 'Marck Script', cursive;
@@ -156,11 +154,46 @@ li :hover {
   padding-bottom: 200px;
 }
 
-#portPic {
-  
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projSingle {
+  padding: 20px;
+}
+
+#projPic {
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  cursor: pointer;
+}
+
+#dropdown-content-proj {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  height: 0px;
+  width: 320px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: center;
+  /* opacity: 0; */
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  /* transition: opacity 2s ease-in; */
+}
+
+.projects :hover #dropdown-content-proj {
+  display: block;
+  height: 320px;
 }
 
 footer {
   padding: 100px;
+  height: 300px;
   background-color: antiquewhite;
 }
